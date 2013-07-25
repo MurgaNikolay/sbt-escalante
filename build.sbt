@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
    "org.jboss.shrinkwrap" % "shrinkwrap-api" % "1.0.1",
    "org.jboss.shrinkwrap" % "shrinkwrap-impl-base" % "1.0.1",
    "org.jboss.shrinkwrap.descriptors" % "shrinkwrap-descriptors-spi" % "2.0.0-alpha-3",
-   "io.escalante" % "escalante-dist" % "0.3.0-SNAPSHOT" artifacts(Artifact("escalante-dist", "zip", "zip")),
+   "io.escalante" % "escalante-dist" % "0.3.0" artifacts(Artifact("escalante-dist", "zip", "zip")),
    "org.jboss.as" % "jboss-as-arquillian-container-embedded" % "7.x.incremental.667",
    "org.jboss.arquillian.core" % "arquillian-core-api" % "1.0.0.Final",
    "org.jboss.arquillian.core" % "arquillian-core-spi" % "1.0.0.Final",
